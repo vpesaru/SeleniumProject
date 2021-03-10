@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.amazon.helpers.EmployeeServiceHelper"/>
+      <class name="com.amazon.api.tests.TestGetAllEmployess"/>
+      <class name="com.amazon.api.tests.TestGetSingleEmployee"/>
+      <class name="com.amazon.api.tests.TestDeleteEmployee"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
